@@ -1,0 +1,11 @@
+OOPs : Object Oriented Programming (Solve -> real world Problems -> Programming)
+1. Class : Blueprint / template for creating objects.
+2. Object : Instance of a class
+
+new : allocate memory for an object and return a reference to it.
+this : reference to the current object.
+
+constructor : special method used to initialize objects. 
+properties: - Constructors will have the same name as the class.
+            - No return type (not even void).
+            - are only called once when the object is created.
