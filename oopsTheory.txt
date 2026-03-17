@@ -5,7 +5,32 @@ OOPs : Object Oriented Programming (Solve -> real world Problems -> Programming)
 new : allocate memory for an object and return a reference to it.
 this : reference to the current object.
 
-constructor : special method used to initialize objects. 
-properties: - Constructors will have the same name as the class.
+Constructor : special method used to initialize objects. 
+Properties: - Constructors will have the same name as the class.
             - No return type (not even void).
             - are only called once when the object is created.
+
+Types of Constructors:
+ 1. Default Constructor : A constructor that takes no parameters and initializes the object with default values.
+ 2. Parameterized Constructor : A constructor that takes parameters to initialize the object with specific values.
+ 3. Copy Constructor : A constructor that creates a new object as a copy of an existing
+
+
+4-pillars in OOPs:
+    1. Inheritance : mechanism where a new class (child class) inherits properties and behaviors from an existing class (parent class).
+    2. Polymorphism : ability of an object to take on many forms. It allows a single interface to be used for a general class of actions.
+    3. Encapsulation : bundling data and methods that operate on that data within a single unit (class) and restricting access to some of the object's components.
+    4. Abstraction : process of hiding the implementation details and showing only the essential features of an object. It allows
+
+Inhertance : mechanism where a new class (child class) inherits properties and behaviors from an existing class (parent class).
+Types of Inheritance:
+1. Single Inheritance : A child class inherits from a single parent class.
+2. Multilevel Inheritance : A child class inherits from a parent class, which in turn inherits from another parent class.
+3. Hierarchical Inheritance : Multiple child classes inherit from a single parent class.
+4. Hybrid Inheritance : A combination of two or more types of inheritance.
+
+
+Polymorphism : ability of an object to take on many forms. It allows a single interface to be used for a general class of actions.
+Types of Polymorphism:
+1. Compile-time Polymorphism (Method Overloading) : Multiple methods with the same name but different parameters within the same class.
+2. Runtime Polymorphism (Method Overriding) : A child class provides a specific implementation of a method that is already defined in its parent class.

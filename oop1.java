@@ -1,14 +1,41 @@
+
 class Car {
     //Attributes
     String color;
     String model;
     int year;
 
-    //constructor
+    //Default Constructor / Non-Parameterized Constructor
+    Car(){
+        this.color = "white";
+        this.model = "maruti";
+        this.year = 2026;
+    }
+
+    //Parameterized constructor
     Car(String c, String m, int y){
         this.color = c;
         this.model = m;
         this.year = y;
+    }
+
+    Car(String c){
+        this.color = c;
+        // this.model = "maruti";
+        // this.year = 2026;
+    }
+
+    Car(String c, String m){
+        this.color = c;
+        this.model = m;
+        this.year = 2025;
+    }
+
+    //Copy Constructor
+    Car(Car c){
+        this.color = c.color;
+        this.model = c.model;
+        this.year = c.year;
     }
 
     //Method
@@ -29,10 +56,16 @@ public class oop1 {
         Car myCar1 = new Car("Red", "BMW", 2024);
         // myCar1.display();
 
-        // Car myCar2 = new Car();
+        Car myCar2 = new Car();
+        System.out.println(myCar2.color);
 
         Car myCar3 = new Car("black", "tata", 2025);
-        System.out.println(myCar3.color);
+        // System.out.println(myCar3.color);
+
+        Car myCar4 = new Car(myCar1);
+
+        Car myCar5 = new Car("blue", "audi", 2023);
+        // System.out.println(myCar5.color);
 
     }
 }
