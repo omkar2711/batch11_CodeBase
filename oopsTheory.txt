@@ -34,3 +34,28 @@ Polymorphism : ability of an object to take on many forms. It allows a single in
 Types of Polymorphism:
 1. Compile-time Polymorphism (Method Overloading) : Multiple methods with the same name but different parameters within the same class.
 2. Runtime Polymorphism (Method Overriding) : A child class provides a specific implementation of a method that is already defined in its parent class.
+
+
+Access Modifiers : keywords that set the accessibility of classes, methods, and other members.
+Types of Access Modifiers:
+1. Public : The access level of a public  modifier is everywhere. 
+    It can be accessed from within the class, outside the class, within the package or from other packages.
+2. Private : The access level of a private modifier is only within the class. 
+    It cannot be accessed from outside the class.
+3. Protected : The access level of a protected modifier is within the package and outside the package through child class.
+4. Default : The access level of a default modifier is within the package. 
+    It cannot be accessed from outside the package.
+
+
+static : keyword used to indicate that a member belongs to the class rather than instances(object) of the class. 
+    Static members can be accessed without creating an instance(object) of the class.
+
+
+Encapsulation : bundling data and methods that operate on that data within a single unit (class) and 
+                restricting access to some of the object's components.
+    - getters and setters : methods used to access and update the value of a private variable.
+
+Abstraction : process of hiding the implementation details and showing only the essential features of an object. 
+                It allows the user to focus on what the object does instead of how it does it.
+    - Abstract Class : A class that cannot be instantiated and is meant to be subclassed.
+    - Interface : A reference type in Java that is similar to a class and is a collection
