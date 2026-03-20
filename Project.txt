@@ -1,0 +1,64 @@
+import java.util.Scanner;
+
+class HDFC {
+    private int balance;
+
+    HDFC(int balance) {
+        this.balance = balance;
+    }
+    public void deposit(int amount){
+        if(amount < 0){
+            System.out.println("Amount cannot be negative");
+            return;
+        }
+        balance += amount;
+         System.out.println("Amount added to the account");
+    }
+    public void withdraw(int amount){
+        if(amount > balance){
+            System.out.println("Amount cannot be greater than balance");
+        }
+        balance -= amount;
+        System.out.println("amount deducted from the account");
+    }
+    public int getBalance(){
+        return balance;
+    }
+}
+
+public class Main {
+    public static void main(String[] args) {
+        Scanner sc = new Scanner(System.in);
+        HDFC user = new HDFC(1000);
+        int command = 0;
+        while(command != 4){
+            System.out.println("1. get balance");
+            System.out.println("2. deposite amount");
+            System.out.println("3. withdraw amount");
+            System.out.println("4. Exit");
+            System.out.println("Enter the command Number");
+            
+           command = sc.nextInt();
+           if( command == 1){
+                System.out.println(user.getBalance());
+           }
+           else if(command == 2){
+               System.out.println("Enter the amount to deposit: ");
+               int amount1 = sc.nextInt();
+               user.deposit(amount1);
+           }
+           else if(command == 3){
+               System.out.println("Enter the amount to withdraw: ");
+               int amount1 = sc.nextInt();
+               user.withdraw(amount1);
+           }
+           else{
+                System.out.println("Exiting from the bank.. ");
+               break;
+           }
+        }
+        
+        sc.close();
+        
+    }
+}

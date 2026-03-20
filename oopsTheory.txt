@@ -59,3 +59,23 @@ Abstraction : process of hiding the implementation details and showing only the 
                 It allows the user to focus on what the object does instead of how it does it.
     - Abstract Class : A class that cannot be instantiated and is meant to be subclassed.
     - Interface : A reference type in Java that is similar to a class and is a collection
+
+
+Keywords:
+1. class : used to declare a class.
+2. new : used to create an object.
+3. this : used to refer to the current object.
+4. static : used to indicate that a member belongs to the class rather than instances of the class.
+5. public : an access modifier that allows access from anywhere.
+6. private : an access modifier that allows access only within the class.
+7. protected : an access modifier that allows access within the package and outside the package through child class.
+8. default : an access modifier that allows access only within the package.
+9. abstract : used to declare an abstract class or method.
+10. interface : used to declare an interface.
+11. extends : used to indicate that a class is inheriting from a parent class.
+12. implements : used to indicate that a class is implementing an interface.
+13. super : used to refer to the parent class.
+14. final : used to indicate that a variable cannot be changed, a method cannot be overridden, or a class cannot be subclassed.
+15. return : used to exit from a method and optionally return a value.
+16. void : used to indicate that a method does not return a value.
+17. constructor : a special method used to initialize objects. It has the same name as the class and no return type.
