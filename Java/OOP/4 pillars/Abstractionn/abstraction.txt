@@ -1,0 +1,4 @@
+Abstraction : process of hiding the implementation details and showing only the essential features of an object. 
+    It allows the user to focus on what the object does instead of how it does it.
+    - Abstract Class : A class that cannot be instantiated and is meant to be subclassed.
+    - Interface : A reference type in Java that is similar to a class and is a collection.

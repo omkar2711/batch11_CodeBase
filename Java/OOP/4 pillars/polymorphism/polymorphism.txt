@@ -1,0 +1,4 @@
+Polymorphism : ability of an object to take on many forms. It allows a single interface to be used for a general class of actions.
+Types of Polymorphism:
+1. Compile-time Polymorphism (Method Overloading) : Multiple methods with the same name but different parameters within the same class.
+2. Runtime Polymorphism (Method Overriding) : A child class provides a specific implementation of a method that is already defined in its parent class.

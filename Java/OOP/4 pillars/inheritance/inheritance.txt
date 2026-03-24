@@ -1,0 +1,6 @@
+// Inhertance : mechanism where a new class (child class) inherits properties and behaviors from an existing class (parent class).
+// Types of Inheritance:
+// 1. Single Inheritance : A child class inherits from a single parent class.
+// 2. Multilevel Inheritance : A child class inherits from a parent class, which in turn inherits from another parent class.
+// 3. Hierarchical Inheritance : Multiple child classes inherit from a single parent class.
+// 4. Hybrid Inheritance : A combination of two or more types of inheritance.

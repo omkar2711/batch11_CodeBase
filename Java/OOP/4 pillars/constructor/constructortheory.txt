@@ -1,0 +1,6 @@
+A constructor is a special function in a class that runs automatically when you create an object.
+there are 3 types of constructor 
+ - Default Constructor/non-parameterized constructor : No parameters (no input),Automatically created if you don’t write any constructor, Sets default values
+ - Parameterized constructor : Takes input (parameters), Used to give values while creating object
+ - copy constructor : Copies values from another object,  A constructor that creates a new object as a copy of an existing
+ 
