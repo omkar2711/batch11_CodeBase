@@ -40,5 +40,6 @@ public class BankImp1 {
 //2. we can only/default create public abstract methods in the interface
 //3. variables are final and static only
 
- //update by madhusudan
+ //update by madhusudan :  updated by another developer
+
 
