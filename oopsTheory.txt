@@ -1,0 +1,81 @@
+OOPs : Object Oriented Programming (Solve -> real world Problems -> Programming)
+1. Class : Blueprint / template for creating objects.
+2. Object : Instance of a class
+
+new : allocate memory for an object and return a reference to it.
+this : reference to the current object.
+
+Constructor : special method used to initialize objects. 
+Properties: - Constructors will have the same name as the class.
+            - No return type (not even void).
+            - are only called once when the object is created.
+
+Types of Constructors:
+ 1. Default Constructor : A constructor that takes no parameters and initializes the object with default values.
+ 2. Parameterized Constructor : A constructor that takes parameters to initialize the object with specific values.
+ 3. Copy Constructor : A constructor that creates a new object as a copy of an existing
+
+
+4-pillars in OOPs:
+    1. Inheritance : mechanism where a new class (child class) inherits properties and behaviors from an existing class (parent class).
+    2. Polymorphism : ability of an object to take on many forms. It allows a single interface to be used for a general class of actions.
+    3. Encapsulation : bundling data and methods that operate on that data within a single unit (class) and restricting access to some of the object's components.
+    4. Abstraction : process of hiding the implementation details and showing only the essential features of an object. It allows
+
+Inhertance : mechanism where a new class (child class) inherits properties and behaviors from an existing class (parent class).
+Types of Inheritance:
+1. Single Inheritance : A child class inherits from a single parent class.
+2. Multilevel Inheritance : A child class inherits from a parent class, which in turn inherits from another parent class.
+3. Hierarchical Inheritance : Multiple child classes inherit from a single parent class.
+4. Hybrid Inheritance : A combination of two or more types of inheritance.
+
+
+Polymorphism : ability of an object to take on many forms. It allows a single interface to be used for a general class of actions.
+Types of Polymorphism:
+1. Compile-time Polymorphism (Method Overloading) : Multiple methods with the same name but different parameters within the same class.
+2. Runtime Polymorphism (Method Overriding) : A child class provides a specific implementation of a method that is already defined in its parent class.
+
+
+Access Modifiers : keywords that set the accessibility of classes, methods, and other members.
+Types of Access Modifiers:
+1. Public : The access level of a public  modifier is everywhere. 
+    It can be accessed from within the class, outside the class, within the package or from other packages.
+2. Private : The access level of a private modifier is only within the class. 
+    It cannot be accessed from outside the class.
+3. Protected : The access level of a protected modifier is within the package and outside the package through child class.
+4. Default : The access level of a default modifier is within the package. 
+    It cannot be accessed from outside the package.
+
+
+static : keyword used to indicate that a member belongs to the class rather than instances(object) of the class. 
+    Static members can be accessed without creating an instance(object) of the class.
+
+
+Encapsulation : bundling data and methods that operate on that data within a single unit (class) and 
+                restricting access to some of the object's components.
+    - getters and setters : methods used to access and update the value of a private variable.
+
+Abstraction : process of hiding the implementation details and showing only the essential features of an object. 
+                It allows the user to focus on what the object does instead of how it does it.
+    - Abstract Class : A class that cannot be instantiated and is meant to be subclassed.
+    - Interface : A reference type in Java that is similar to a class and is a collection
+
+
+Keywords:
+1. class : used to declare a class.
+2. new : used to create an object.
+3. this : used to refer to the current object.
+4. static : used to indicate that a member belongs to the class rather than instances of the class.
+5. public : an access modifier that allows access from anywhere.
+6. private : an access modifier that allows access only within the class.
+7. protected : an access modifier that allows access within the package and outside the package through child class.
+8. default : an access modifier that allows access only within the package.
+9. abstract : used to declare an abstract class or method.
+10. interface : used to declare an interface.
+11. extends : used to indicate that a class is inheriting from a parent class.
+12. implements : used to indicate that a class is implementing an interface.
+13. super : used to refer to the parent class.
+14. final : used to indicate that a variable cannot be changed, a method cannot be overridden, or a class cannot be subclassed.
+15. return : used to exit from a method and optionally return a value.
+16. void : used to indicate that a method does not return a value.
+17. constructor : a special method used to initialize objects. It has the same name as the class and no return type.
