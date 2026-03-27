@@ -6,13 +6,13 @@ public class patterPrinting2 {
                 System.out.print("*");
             }
 
-            for(int j = 1; j<=i;j++){
+            for(int j = 1; j<=2*i;j++){
                 System.out.print(" ");
             }
 
-            for(int j = 1; j<=i;j++){
-                System.out.print(" ");
-            }
+            // for(int j = 1; j<=i;j++){
+            //     System.out.print(" ");
+            // }
 
             for(int j = 5;j>=i;j--){
                 System.out.print("*");
@@ -26,12 +26,12 @@ public class patterPrinting2 {
                 System.out.print("*");
             }
 
-            for(int j = 5; j >= i;j--){
+            for(int j = 11; j >= i*2;j--){
                 System.out.print(" ");
             }
-            for(int j = 5;j>=i;j--){
-                System.out.print(" ");
-            }
+            // for(int j = 5;j>=i;j--){
+            //     System.out.print(" ");
+            // }
             for(int j = 1;j<=i;j++){
                 System.out.print("*");
             }
