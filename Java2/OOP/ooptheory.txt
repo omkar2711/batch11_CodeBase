@@ -1,0 +1,2 @@
+new : allocate memory for an object and return a reference to it.
+this : reference to the current object.

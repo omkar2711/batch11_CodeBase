@@ -1,0 +1,5 @@
+Variable: Used to store in a program, They hvae a name anda a type ,Which Determines the kind of data they 
+
+DataTypes 
+    - primitive Data DataTypes
+    - Non primitive DataTypes / Reference Data DataTypes

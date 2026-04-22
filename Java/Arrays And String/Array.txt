@@ -1,0 +1,11 @@
+An array is a linear datastructure which store same type of data elements in a contiguious memory
+there are mainly three Characteristics :- 
+    1)Always Store data of Same type
+    2)Arrays Have fixed Size
+    3)Arrays are 0 based Index
+
+Types Of Arrays: 
+    1: single Dimensional Array
+    2: 2 Dimensional Array
+    3: 3 Dimensional Array
+    4: multiDimensional Array

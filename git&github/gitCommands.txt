@@ -1,0 +1,15 @@
+git init : to initialize a git repository in the current directory
+git add . : to add all the files in the current directory to staging area
+git commit -m "message" : to commit the changes in the staging area with a message
+git status : to check the status of the repository
+git log : to view the commit history
+git branch : to view the branches in the repository
+git checkout -b branch_name : to create and switch to a new branch
+git checkout branch_name : to switch to an existing branch
+git merge branch_name : to merge the specified branch into the current branch
+git pull : to fetch and merge changes from the remote repository
+git push : to push the committed changes to the remote repository (git push -u origin branch_name)
+git clone repository_url : to clone a remote repository to the local machine
+git remote add origin repository_url : to add a remote repository
+git remote -v : to view the remote repositories
+git diff : to view the changes made to the files
