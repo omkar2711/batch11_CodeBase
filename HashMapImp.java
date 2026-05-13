@@ -8,9 +8,9 @@ public class HashMapImp {
         //adding elements into hashmap
         //put
         map.put("Apple", 280);
-        map.put("banana", 60);
+        map.put("banana", 280);
         map.put("Mango", 200);
-        // map.put("Orange", );
+
 
         
 
