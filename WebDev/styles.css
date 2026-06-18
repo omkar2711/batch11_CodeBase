@@ -1,0 +1,28 @@
+* {
+   
+    /* color: white; */
+}
+
+body {
+    background-color: darkgoldenrod;
+    color: white;
+    font-family:'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+
+h1 {
+    color: aqua;
+    font-size: 120px;
+}
+
+#address {
+    color: blue;
+    font-size: 20px;
+    text-align: center;
+}
+
+.contact-info {
+    color: green;
+    font-size: 20px;
+    text-align: center;
+}
