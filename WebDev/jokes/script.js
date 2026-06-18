@@ -6,11 +6,11 @@ const fetchJoke = async () => {
         if (!response.ok) {
             throw new Error(`HTTP error! status: ${response.status}`);
         }
-        const joke = await response.json();
-        if (joke.type === 'single') {
-            jokeResult.innerHTML = `<p>${joke.joke}</p>`;
-        } else if (joke.type === 'twopart') {
-            jokeResult.innerHTML = `<p>${joke.setup}</p><p>${joke.delivery}</p>`;
+        const data = await response.json();
+        if (data.type === 'single') {
+            jokeResult.innerHTML = `<p>${data.joke}</p>`;
+        } else if (data.type === 'twopart') {
+            jokeResult.innerHTML = `<p>${data.setup}</p><p>${data.delivery}</p>`;
         } else {
             jokeResult.innerHTML = `<p>Unexpected joke format received.</p>`;
         }
@@ -19,3 +19,9 @@ const fetchJoke = async () => {
         console.error('Error fetching joke:', error);
     }
 }
+
+
+let count = 100;
+console.log("the count is: " + count + " and the type of count is: " + typeof count);
+//TEMPLATE LITERAL
+console.log(`the count is: ${count} and the type of count is: ${typeof count}`);
