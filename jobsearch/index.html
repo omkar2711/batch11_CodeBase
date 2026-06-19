@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Job Search App</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <main class="app-shell">
+        <h1 id="welcome">Find Your Next Opportunity</h1>
+
+        <form id="search-form" class="search-panel">
+            <input type="text" id="search-input" placeholder="Enter job title or keyword">
+            <input type="text" id="location-input" placeholder="Enter country or city">
+            <div class="filters-row">
+                <select id="type-filter">
+                    <option value="all">All job types</option>
+                    <option value="Full-time">Full-time</option>
+                    <option value="Part-time">Part-time</option>
+                    <option value="Contract">Contract</option>
+                    <option value="Internship">Internship</option>
+                </select>
+                <select id="mode-filter">
+                    <option value="all">Any mode</option>
+                    <option value="remote">Remote</option>
+                    <option value="onsite">On-site</option>
+                    <option value="hybrid">Hybrid</option>
+                </select>
+                <button type="button" id="clear-filters" class="clear-button">Clear</button>
+            </div>
+            <button type="submit" id="search-button">Search Jobs</button>
+        </form>
+
+        <div id="results"></div>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
