@@ -1,0 +1,44 @@
+.card {
+	cursor: pointer;
+}
+
+.thumb-wrap{ position:relative; border-radius: 12px; overflow: hidden; }
+.thumb{ width:100%; aspect-ratio: 16/9; object-fit:cover; display:block; background: var(--bg-elevated); transition: transform .2s ease; }
+.card:hover .thumb{ transform: scale(1.02); }
+
+.duration{ position:absolute; right:8px; bottom:8px; background:rgba(0,0,0,0.8); color:#fff; padding:2px 5px; border-radius:4px; font-size:0.75rem; font-weight: 500; }
+
+.top-badge{
+	position:absolute;
+	left:8px;
+	top:8px;
+	background:rgba(0,0,0,0.8);
+	color:#fff;
+	padding:3px 8px;
+	border-radius:4px;
+	font-size:0.7rem;
+	font-weight: 700;
+	letter-spacing: 0.3px;
+}
+
+.meta{ display:flex; gap:12px; padding:12px 0; align-items:flex-start; }
+.avatar{ width:36px; height:36px; border-radius:50%; color:white; display:flex; align-items:center; justify-content:center; font-weight:700; flex-shrink:0; }
+.text{ min-width:0; }
+.title{
+	margin:0 0 4px 0;
+	font-size:1rem;
+	font-weight: 500;
+	color:var(--text);
+	line-height:1.35;
+	display: -webkit-box;
+	-webkit-line-clamp: 2;
+	line-clamp: 2;
+	-webkit-box-orient: vertical;
+	overflow: hidden;
+}
+.channel, .stats{ margin:0; color:var(--muted); font-size:0.875rem; line-height: 1.4; }
+.channel{ display: flex; align-items: center; gap: 4px; }
+.verified{ flex-shrink: 0; color: var(--muted); }
+
+.tags{ display: flex; gap: 6px; margin-top: 4px; flex-wrap: wrap; }
+.tag{ background: var(--bg-chip); color: var(--text); font-size: 0.7rem; padding: 2px 6px; border-radius: 4px; }

@@ -1,0 +1,9 @@
+React JS
+Components : are building blocks of React JS. 
+They are reusable pieces of code that represent a part of the user interface. 
+Components can be functional or class-based, 
+and they can accept inputs called props to customize their behavior and appearance.
+
+props : are short for properties and are used to pass data from a parent component to a child component.
+
+state : is a built-in object that allows components to manage and track their own data.
