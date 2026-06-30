@@ -25,3 +25,9 @@ Dependency Array : is an optional second argument to the useEffect hook that spe
 Prop Drilling : is the process of passing data from a parent component to a deeply nested child component through multiple layers of components.
 useContext : is a hook that allows you to share state and data between components without prop drilling.
     - It provides a way to create a global state that can be accessed by any component in the component tree.
+
+
+React Component lifecycle : refers to the different stages a component goes through during its existence, from creation to destruction.
+    - Mounting: The component is being created and inserted into the DOM.
+    - Updating: The component is being re-rendered due to changes in props or state.
+    - Unmounting: The component is being removed from the DOM.
