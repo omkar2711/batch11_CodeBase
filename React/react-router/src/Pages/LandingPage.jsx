@@ -2,6 +2,8 @@ import React from 'react'
 import { Link } from 'react-router-dom'
 
 const LandingPage = () => {
+
+    const id = '12345';
   return (
     <div>
       <h1>LandingPage</h1>
@@ -9,6 +11,7 @@ const LandingPage = () => {
         <Link to="/login">Login</Link>
         <Link to="/register">Register</Link>
         <Link to="/dashboard">Dashboard</Link>
+        <Link to={`/product/${id}`}>Product</Link>
       </nav>
     </div>
   )

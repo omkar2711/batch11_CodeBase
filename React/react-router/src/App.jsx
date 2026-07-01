@@ -5,6 +5,7 @@ import RegisterPage from './Pages/RegisterPage'
 import Dashboard from './Pages/Dashboard'
 import Profile from './Pages/Profile'
 import Settings from './Pages/Settings'
+import ProductPage from './Pages/ProductPage'
 
 function App() {
 
@@ -18,6 +19,10 @@ function App() {
         <Route path="profile" element={<Profile />} />
         <Route path="settings" element={<Settings />} />
       </Route>
+
+      {/* Dynamic Route */}
+      <Route path="/product/:productId" element={<ProductPage />} />
+      <Route path="*" element={<h1>404 Page Not Found</h1>} />
     </Routes>
   )
 }
