@@ -31,3 +31,32 @@ React Component lifecycle : refers to the different stages a component goes thro
     - Mounting: The component is being created and inserted into the DOM.
     - Updating: The component is being re-rendered due to changes in props or state.
     - Unmounting: The component is being removed from the DOM.
+
+
+useMemo and useCallback : are hooks that help optimize performance by memoizing values and functions.
+    - useMemo: is a hook that memoizes the result of a computation, preventing unnecessary recalculations on re-renders.
+    - useCallback: is a hook that memoizes a function, preventing unnecessary re-creations of the function on re-renders.
+
+useRef : is a hook that provides a way to create a mutable reference that persists across renders.
+    - It can be used to access DOM elements directly or to store mutable values that do not trigger re-renders.
+
+custom hooks : are user-defined hooks that allow you to extract and reuse logic across multiple components.
+    - They follow the same rules as built-in hooks and can help keep your code organized and maintainable.
+
+
+
+Redux : is a state management library for JavaScript applications, often used with React.
+    - It provides a predictable state container that helps manage the state of an application in a centralized way.
+    
+    State : Actual Data
+    Store : Single source of truth
+    Dispatch : Function that sends an action to the store to update the state -> useDispatch()
+    Action : JavaScript object that describes a change in state -> {}
+    Reducer : A pure function that takes the current state and an action as arguments and returns a new state based on the action.
+    Selector : A function that extracts specific pieces of state from the Redux store, allowing components to access only the data they need. -> useSelector()
+
+    Slice : A slice is a portion of the Redux store that manages a specific piece of state.
+    Aync Actions : are actions that involve asynchronous operations, such as API calls or timeouts.
+    thunk middleware : is a middleware that allows you to write action creators that return a function instead of an action object.
+    payload : is the data that is sent along with an action to provide additional information for the reducer to update the state.
+
