@@ -1,0 +1,728 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sanket Dighe | Civil &amp; Structural Engineer</title>
+    <meta name="description" content="Sanket Dighe - Chartered Civil & Structural Engineer with 23+ years of experience in high-rise buildings, bridges, highways and industrial infrastructure.">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Barlow:wght@400;500;600;700&family=Barlow+Condensed:wght@600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+
+    <script>
+        // Dummy images: if a photo cannot load, swap in a placeholder; if that fails too, hide it
+        // so the styled frame behind it shows instead of a broken-image icon.
+        window.addEventListener('error', function (e) {
+            var img = e.target;
+            if (!(img instanceof HTMLImageElement)) return;
+            if (!img.dataset.fallback) {
+                img.dataset.fallback = '1';
+                var seed = (img.alt || 'civil').toLowerCase().replace(/[^a-z0-9]+/g, '-');
+                img.src = 'https://picsum.photos/seed/' + seed + '/800/600';
+            } else {
+                img.style.visibility = 'hidden';
+            }
+        }, true);
+    </script>
+</head>
+<body>
+
+    <!-- ===== Header ===== -->
+    <header class="header" id="header">
+        <div class="container nav-wrap">
+            <a href="#home" class="logo">
+                <span class="logo-mark">SD</span>
+                <span class="logo-text">Sanket Dighe<small>Civil &amp; Structural Engineer</small></span>
+            </a>
+
+            <nav class="nav" id="nav">
+                <a href="#home" class="nav-link active">Home</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#experience" class="nav-link">Experience</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#testimonials" class="nav-link">Testimonials</a>
+                <a href="#contact" class="nav-link btn btn-primary btn-sm">Get a Quote</a>
+            </nav>
+
+            <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false">
+                <span></span><span></span><span></span>
+            </button>
+        </div>
+    </header>
+
+    <!-- ===== Hero ===== -->
+    <section class="hero" id="home">
+        <div class="container hero-content">
+            <p class="eyebrow"><i class="fa-solid fa-helmet-safety"></i> Chartered Engineer &bull; 23+ Years of Experience</p>
+            <h1>Engineering Structures<br>That <span class="accent">Stand the Test of Time</span></h1>
+            <p class="hero-lead">
+                I'm <strong>Er. Sanket Dighe</strong>, a civil &amp; structural engineer who has designed and delivered
+                350+ projects &mdash; from 40-storey towers and river bridges to highways, metro stations and industrial plants.
+            </p>
+            <div class="hero-actions">
+                <a href="#projects" class="btn btn-primary">View My Projects <i class="fa-solid fa-arrow-right"></i></a>
+                <a href="#contact" class="btn btn-outline">Book a Consultation</a>
+            </div>
+            <ul class="hero-badges">
+                <li><i class="fa-solid fa-certificate"></i> Chartered Engineer (IEI)</li>
+                <li><i class="fa-solid fa-award"></i> PMP&reg; Certified</li>
+                <li><i class="fa-solid fa-leaf"></i> LEED AP BD+C</li>
+            </ul>
+        </div>
+        <a href="#stats" class="scroll-down" aria-label="Scroll down"><i class="fa-solid fa-chevron-down"></i></a>
+    </section>
+
+    <!-- ===== Stats ===== -->
+    <section class="stats" id="stats">
+        <div class="container stats-grid">
+            <div class="stat">
+                <i class="fa-solid fa-calendar-check"></i>
+                <h3><span class="counter" data-target="23">0</span>+</h3>
+                <p>Years of Experience</p>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-building"></i>
+                <h3><span class="counter" data-target="350">0</span>+</h3>
+                <p>Projects Completed</p>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-ruler-combined"></i>
+                <h3><span class="counter" data-target="18">0</span>M+</h3>
+                <p>Sq. Ft. Designed</p>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-road-bridge"></i>
+                <h3><span class="counter" data-target="140">0</span>+ km</h3>
+                <p>Roads &amp; Bridges Built</p>
+            </div>
+            <div class="stat">
+                <i class="fa-solid fa-handshake"></i>
+                <h3><span class="counter" data-target="120">0</span>+</h3>
+                <p>Happy Clients</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== About ===== -->
+    <section class="section" id="about">
+        <div class="container about-grid">
+            <div class="about-media reveal">
+                <div class="about-photo">
+                    <img src="https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=700&q=80" alt="Sanket Dighe portrait">
+                </div>
+                <div class="about-exp-badge">
+                    <strong>23+</strong>
+                    <span>Years building<br>India's infrastructure</span>
+                </div>
+            </div>
+
+            <div class="about-text reveal">
+                <p class="section-tag">About Me</p>
+                <h2>Two Decades of Designing, Building &amp; Managing Landmark Structures</h2>
+                <p>
+                    Since 2003 I have worked across every stage of the construction life-cycle &mdash; feasibility,
+                    structural design, tendering, site execution, quality control and project handover. My work spans
+                    high-rise residential towers, commercial complexes, IT parks, bridges, flyovers, highways, water
+                    infrastructure and heavy industrial facilities across India and the Middle East.
+                </p>
+                <p>
+                    Today I lead <strong>Dighe Structural Consultants</strong>, a Pune-based practice offering structural
+                    design, project management and structural audit services. My approach combines rigorous engineering,
+                    value engineering to control cost, and an uncompromising focus on safety and code compliance
+                    (IS 456, IS 1893, IS 800, IRC &amp; ACI standards).
+                </p>
+
+                <div class="about-info">
+                    <div><span>Name</span><strong>Er. Sanket Dighe</strong></div>
+                    <div><span>Qualification</span><strong>M.E. (Structures), B.E. (Civil)</strong></div>
+                    <div><span>Experience</span><strong>23+ Years</strong></div>
+                    <div><span>Based In</span><strong>Pune, Maharashtra</strong></div>
+                    <div><span>Email</span><strong>sanket.dighe@example.com</strong></div>
+                    <div><span>Availability</span><strong class="text-success">Open for Projects</strong></div>
+                </div>
+
+                <div class="skills">
+                    <div class="skill">
+                        <div class="skill-head"><span>Structural Design &amp; Analysis</span><span>98%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="98"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-head"><span>Project &amp; Construction Management</span><span>95%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="95"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-head"><span>Bridge &amp; Highway Engineering</span><span>92%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="92"></div></div>
+                    </div>
+                    <div class="skill">
+                        <div class="skill-head"><span>Quantity Surveying &amp; Estimation</span><span>90%</span></div>
+                        <div class="skill-bar"><div class="skill-fill" data-width="90"></div></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Services ===== -->
+    <section class="section section-alt" id="services">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">What I Do</p>
+                <h2>Civil Engineering Services</h2>
+                <p>End-to-end engineering expertise, from the first soil test to the final occupancy certificate.</p>
+            </div>
+
+            <div class="services-grid">
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-compass-drafting"></i></div>
+                    <h3>Structural Design</h3>
+                    <p>RCC, steel and composite design for buildings up to 45 storeys, with seismic and wind analysis as per IS &amp; international codes.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-list-check"></i></div>
+                    <h3>Project Management</h3>
+                    <p>Planning, scheduling (Primavera P6 / MS Project), contractor coordination, cost control and on-time delivery.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-road-bridge"></i></div>
+                    <h3>Bridges &amp; Highways</h3>
+                    <p>Design and supervision of PSC &amp; RCC bridges, flyovers, ROBs, culverts and highway pavements as per IRC &amp; MoRTH.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-magnifying-glass-chart"></i></div>
+                    <h3>Structural Audit &amp; Retrofitting</h3>
+                    <p>NDT testing, condition assessment, structural stability certificates and strengthening of distressed buildings.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-calculator"></i></div>
+                    <h3>Estimation &amp; BOQ</h3>
+                    <p>Detailed quantity take-off, rate analysis, bill of quantities, tender documentation and contractor bill certification.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-mountain"></i></div>
+                    <h3>Geotechnical &amp; Foundations</h3>
+                    <p>Soil investigation review, pile and raft foundation design, retaining walls, slope stability and ground improvement.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-droplet"></i></div>
+                    <h3>Water &amp; Environmental</h3>
+                    <p>Water treatment plants, sewage treatment plants, ESRs, storm-water drainage and rain-water harvesting systems.</p>
+                </article>
+                <article class="service-card reveal">
+                    <div class="service-icon"><i class="fa-solid fa-clipboard-check"></i></div>
+                    <h3>Quality &amp; Site Supervision</h3>
+                    <p>Third-party quality audits, material testing, site safety compliance and Proof Consultant services for authorities.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Experience ===== -->
+    <section class="section" id="experience">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">Career Journey</p>
+                <h2>23+ Years of Professional Experience</h2>
+                <p>A career built on site, in design offices and in boardrooms &mdash; delivering projects worth over &#8377;4,500 crore.</p>
+            </div>
+
+            <div class="timeline">
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2019 &ndash; Present</span>
+                        <h3>Founder &amp; Principal Structural Consultant</h3>
+                        <h4>Dighe Structural Consultants, Pune</h4>
+                        <ul>
+                            <li>Leading a 25-member team of structural designers, draughtsmen and site engineers.</li>
+                            <li>Delivered structural design for 60+ high-rise, commercial and industrial projects.</li>
+                            <li>Empanelled structural auditor &amp; proof consultant for municipal corporations.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2014 &ndash; 2019</span>
+                        <h3>General Manager &ndash; Projects</h3>
+                        <h4>Sahyadri Infraprojects Ltd., Mumbai</h4>
+                        <ul>
+                            <li>Headed execution of a &#8377;1,200 crore portfolio of residential townships and IT parks.</li>
+                            <li>Managed 900+ workforce, 14 sub-contractors and multi-disciplinary MEP coordination.</li>
+                            <li>Introduced aluminium formwork, cutting floor cycle time from 10 to 7 days.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2010 &ndash; 2014</span>
+                        <h3>Senior Structural Engineer</h3>
+                        <h4>Gulf Arc Engineering Consultants, Dubai (UAE)</h4>
+                        <ul>
+                            <li>Designed post-tensioned slabs and transfer structures for 30&ndash;45 storey towers.</li>
+                            <li>Performed wind-tunnel-based lateral analysis and peer reviews using ETABS &amp; SAFE.</li>
+                            <li>Coordinated with international architects on mixed-use developments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2007 &ndash; 2010</span>
+                        <h3>Project Engineer &ndash; Bridges &amp; Highways</h3>
+                        <h4>Deccan Highways &amp; Bridges Pvt. Ltd., Pune</h4>
+                        <ul>
+                            <li>Executed 6-lane highway widening (52 km) with 3 major bridges and 11 minor bridges.</li>
+                            <li>Supervised PSC girder casting, launching and well foundations up to 28 m depth.</li>
+                            <li>Achieved zero lost-time incidents over 1.8 million man-hours.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2005 &ndash; 2007</span>
+                        <h3>Structural Design Engineer</h3>
+                        <h4>Indus Structural Design Associates, Pune</h4>
+                        <ul>
+                            <li>Analysed and designed RCC residential &amp; commercial buildings using STAAD.Pro.</li>
+                            <li>Prepared structural drawings, bar bending schedules and design reports.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item reveal">
+                    <div class="timeline-dot"><i class="fa-solid fa-briefcase"></i></div>
+                    <div class="timeline-card">
+                        <span class="timeline-date">2003 &ndash; 2005</span>
+                        <h3>Site Engineer</h3>
+                        <h4>Godavari Constructions, Nashik</h4>
+                        <ul>
+                            <li>Supervised foundation, framing and finishing works for G+7 residential buildings.</li>
+                            <li>Handled surveying, layout, material testing and daily progress reporting.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Education, Certifications & Tools ===== -->
+    <section class="section section-alt" id="credentials">
+        <div class="container credentials-grid">
+            <div class="cred-col reveal">
+                <h3 class="cred-title"><i class="fa-solid fa-graduation-cap"></i> Education</h3>
+                <div class="cred-item">
+                    <span>2009</span>
+                    <h4>M.E. &ndash; Structural Engineering</h4>
+                    <p>College of Engineering, Pune &bull; Distinction</p>
+                </div>
+                <div class="cred-item">
+                    <span>2003</span>
+                    <h4>B.E. &ndash; Civil Engineering</h4>
+                    <p>Savitribai Phule Pune University &bull; First Class with Distinction</p>
+                </div>
+                <div class="cred-item">
+                    <span>1999</span>
+                    <h4>Diploma in Civil Engineering</h4>
+                    <p>Government Polytechnic, Nashik</p>
+                </div>
+            </div>
+
+            <div class="cred-col reveal">
+                <h3 class="cred-title"><i class="fa-solid fa-award"></i> Certifications &amp; Memberships</h3>
+                <ul class="cert-list">
+                    <li><i class="fa-solid fa-check"></i> Chartered Engineer &ndash; Institution of Engineers (India)</li>
+                    <li><i class="fa-solid fa-check"></i> Licensed Structural Engineer &ndash; Pune Municipal Corporation</li>
+                    <li><i class="fa-solid fa-check"></i> Project Management Professional (PMP&reg;) &ndash; PMI</li>
+                    <li><i class="fa-solid fa-check"></i> LEED AP BD+C &ndash; US Green Building Council</li>
+                    <li><i class="fa-solid fa-check"></i> Fellow &ndash; Indian Concrete Institute (ICI)</li>
+                    <li><i class="fa-solid fa-check"></i> Life Member &ndash; Indian Roads Congress (IRC)</li>
+                    <li><i class="fa-solid fa-check"></i> Member &ndash; American Society of Civil Engineers (ASCE)</li>
+                </ul>
+            </div>
+
+            <div class="cred-col reveal">
+                <h3 class="cred-title"><i class="fa-solid fa-laptop-code"></i> Software &amp; Tools</h3>
+                <div class="tool-tags">
+                    <span>AutoCAD</span><span>STAAD.Pro</span><span>ETABS</span><span>SAFE</span>
+                    <span>SAP2000</span><span>Revit Structure</span><span>Tekla</span><span>MIDAS Civil</span>
+                    <span>Civil 3D</span><span>Primavera P6</span><span>MS Project</span><span>RCDC</span>
+                    <span>Navisworks</span><span>Excel / VBA</span>
+                </div>
+                <h3 class="cred-title mt"><i class="fa-solid fa-trophy"></i> Awards</h3>
+                <ul class="cert-list">
+                    <li><i class="fa-solid fa-star"></i> Excellence in Structural Design &ndash; ICI Pune Chapter, 2022</li>
+                    <li><i class="fa-solid fa-star"></i> Best Infrastructure Project Manager, 2017</li>
+                    <li><i class="fa-solid fa-star"></i> Zero-Accident Safety Award, 2009</li>
+                </ul>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Projects ===== -->
+    <section class="section" id="projects">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">Portfolio</p>
+                <h2>Featured Projects</h2>
+                <p>A selection of landmark projects designed, managed or audited over the years.</p>
+            </div>
+
+            <div class="filters" id="filters">
+                <button class="filter-btn active" data-filter="all">All</button>
+                <button class="filter-btn" data-filter="residential">Residential</button>
+                <button class="filter-btn" data-filter="commercial">Commercial</button>
+                <button class="filter-btn" data-filter="infrastructure">Infrastructure</button>
+                <button class="filter-btn" data-filter="industrial">Industrial</button>
+            </div>
+
+            <div class="projects-grid" id="projectsGrid">
+                <article class="project-card" data-category="residential">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1486406146926-c627a92ad1ab?auto=format&fit=crop&w=800&q=80" alt="Skyline Residency Towers" loading="lazy">
+                        <span class="project-cat">Residential</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Skyline Residency Towers</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Baner, Pune &bull; 2021</p>
+                        <p>Twin 38-storey RCC towers with 620 apartments, podium parking and post-tensioned transfer slabs.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="infrastructure">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1545558014-8692077e9b5c?auto=format&fit=crop&w=800&q=80" alt="Bhima River Bridge" loading="lazy">
+                        <span class="project-cat">Infrastructure</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Bhima River Bridge</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Solapur District &bull; 2009</p>
+                        <p>420 m long prestressed concrete box-girder bridge with 12 spans on well foundations.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="commercial">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1497366216548-37526070297c?auto=format&fit=crop&w=800&q=80" alt="Hinjewadi Tech Park Phase II" loading="lazy">
+                        <span class="project-cat">Commercial</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Tech Park &ndash; Phase II</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Hinjewadi, Pune &bull; 2018</p>
+                        <p>1.2 million sq. ft. IT campus with 4 office blocks, food court and multi-level car park.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="infrastructure">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80" alt="Elevated flyover corridor" loading="lazy">
+                        <span class="project-cat">Infrastructure</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Elevated Flyover Corridor</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Nashik Highway &bull; 2016</p>
+                        <p>2.4 km 4-lane elevated corridor with segmental construction and precast pier caps.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="industrial">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1586528116311-ad8dd3c8310d?auto=format&fit=crop&w=800&q=80" alt="Logistics warehouse park" loading="lazy">
+                        <span class="project-cat">Industrial</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Logistics Warehouse Park</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Chakan MIDC &bull; 2022</p>
+                        <p>4.5 lakh sq. ft. pre-engineered steel warehouses with FM2-grade super-flat floors.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="infrastructure">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1581094794329-c8112a89af12?auto=format&fit=crop&w=800&q=80" alt="Water treatment plant" loading="lazy">
+                        <span class="project-cat">Infrastructure</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>60 MLD Water Treatment Plant</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Nashik &bull; 2020</p>
+                        <p>Clariflocculators, rapid sand filters and a 5 ML elevated service reservoir for municipal supply.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="commercial">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1519494026892-80bbd2d6fd0d?auto=format&fit=crop&w=800&q=80" alt="Multi-specialty hospital" loading="lazy">
+                        <span class="project-cat">Commercial</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>300-Bed Multi-Specialty Hospital</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Aurangabad &bull; 2019</p>
+                        <p>Base-isolated G+10 hospital block designed for post-earthquake functionality.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="residential">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80" alt="Green Valley Villas" loading="lazy">
+                        <span class="project-cat">Residential</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Green Valley Villas</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Lonavala &bull; 2023</p>
+                        <p>Gated community of 85 hillside villas with retaining walls and slope-stabilisation works.</p>
+                    </div>
+                </article>
+
+                <article class="project-card" data-category="industrial">
+                    <div class="project-img">
+                        <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&w=800&q=80" alt="Automobile manufacturing plant" loading="lazy">
+                        <span class="project-cat">Industrial</span>
+                    </div>
+                    <div class="project-body">
+                        <h3>Automobile Manufacturing Plant</h3>
+                        <p class="project-meta"><i class="fa-solid fa-location-dot"></i> Ranjangaon &bull; 2015</p>
+                        <p>Steel-framed press shop with 80 MT EOT cranes, machine foundations and vibration isolation.</p>
+                    </div>
+                </article>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Process ===== -->
+    <section class="section section-dark" id="process">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">How I Work</p>
+                <h2>A Proven 5-Step Engineering Process</h2>
+            </div>
+            <div class="process-grid">
+                <div class="process-step reveal"><span>01</span><h3>Site Study</h3><p>Site visit, survey &amp; soil investigation review.</p></div>
+                <div class="process-step reveal"><span>02</span><h3>Concept &amp; Design</h3><p>Structural scheme, analysis and value engineering.</p></div>
+                <div class="process-step reveal"><span>03</span><h3>Drawings &amp; BOQ</h3><p>Detailed drawings, estimates and tender documents.</p></div>
+                <div class="process-step reveal"><span>04</span><h3>Execution</h3><p>Site supervision, quality checks and progress tracking.</p></div>
+                <div class="process-step reveal"><span>05</span><h3>Handover</h3><p>Stability certificate, as-built records and support.</p></div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Testimonials ===== -->
+    <section class="section section-alt" id="testimonials">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">Testimonials</p>
+                <h2>What Clients Say</h2>
+            </div>
+
+            <div class="slider" id="slider">
+                <div class="slides" id="slides">
+                    <blockquote class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Sanket's value-engineering on our twin towers saved us nearly 9% on structural cost without compromising safety. Exceptional technical depth and always available on site.</p>
+                        <footer><span class="avatar">RK</span><div><strong>Rajesh Kulkarni</strong><small>Managing Director, Real Estate Developer</small></div></footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>The bridge was delivered two months ahead of schedule. His planning, coordination with authorities and focus on quality were outstanding.</p>
+                        <footer><span class="avatar">PS</span><div><strong>Priya Shah</strong><small>Executive Engineer, Public Works Department</small></div></footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>We engaged Dighe Structural Consultants for a structural audit of our 30-year-old society building. Thorough report, practical retrofitting plan and fair pricing.</p>
+                        <footer><span class="avatar">AJ</span><div><strong>Anil Joshi</strong><small>Secretary, Housing Society</small></div></footer>
+                    </blockquote>
+                    <blockquote class="testimonial">
+                        <i class="fa-solid fa-quote-left"></i>
+                        <p>Our warehouse floors and crane foundations performed flawlessly from day one. A true professional who understands industrial requirements.</p>
+                        <footer><span class="avatar">MD</span><div><strong>Meera Deshpande</strong><small>Head of Projects, Logistics Company</small></div></footer>
+                    </blockquote>
+                </div>
+                <div class="slider-controls">
+                    <button class="slider-btn" id="prevSlide" aria-label="Previous testimonial"><i class="fa-solid fa-chevron-left"></i></button>
+                    <div class="dots" id="dots"></div>
+                    <button class="slider-btn" id="nextSlide" aria-label="Next testimonial"><i class="fa-solid fa-chevron-right"></i></button>
+                </div>
+            </div>
+
+            <div class="clients reveal">
+                <p>Trusted by developers, government bodies &amp; industry</p>
+                <div class="client-logos">
+                    <span><i class="fa-solid fa-city"></i> Urban Developers</span>
+                    <span><i class="fa-solid fa-landmark"></i> PWD Maharashtra</span>
+                    <span><i class="fa-solid fa-train-subway"></i> Metro Rail Corp.</span>
+                    <span><i class="fa-solid fa-industry"></i> Auto Manufacturers</span>
+                    <span><i class="fa-solid fa-hospital"></i> Healthcare Groups</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== CTA ===== -->
+    <section class="cta">
+        <div class="container cta-inner reveal">
+            <div>
+                <h2>Planning a new project or need a structural audit?</h2>
+                <p>Let's discuss your requirements. The first consultation is free.</p>
+            </div>
+            <a href="#contact" class="btn btn-dark">Let's Talk <i class="fa-solid fa-arrow-right"></i></a>
+        </div>
+    </section>
+
+    <!-- ===== Contact ===== -->
+    <section class="section" id="contact">
+        <div class="container">
+            <div class="section-head reveal">
+                <p class="section-tag">Contact</p>
+                <h2>Get in Touch</h2>
+                <p>Send a message and I'll respond within one working day.</p>
+            </div>
+
+            <div class="contact-grid">
+                <div class="contact-info reveal">
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-location-dot"></i></div>
+                        <div>
+                            <h4>Office Address</h4>
+                            <p>Office No. 304, 3rd Floor, Shree Plaza,<br>FC Road, Shivajinagar, Pune &ndash; 411005,<br>Maharashtra, India</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-phone"></i></div>
+                        <div>
+                            <h4>Phone</h4>
+                            <p><a href="tel:+919876543210">+91 98765 43210</a><br><a href="tel:+912025500000">+91 20 2550 0000</a> (Office)</p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-envelope"></i></div>
+                        <div>
+                            <h4>Email</h4>
+                            <p><a href="mailto:sanket.dighe@example.com">sanket.dighe@example.com</a><br><a href="mailto:projects@example.com">projects@example.com</a></p>
+                        </div>
+                    </div>
+                    <div class="contact-item">
+                        <div class="contact-icon"><i class="fa-solid fa-clock"></i></div>
+                        <div>
+                            <h4>Office Hours</h4>
+                            <p>Mon &ndash; Sat: 9:30 AM &ndash; 7:00 PM<br>Sunday: Site visits by appointment</p>
+                        </div>
+                    </div>
+                    <div class="socials">
+                        <a href="#" aria-label="LinkedIn"><i class="fa-brands fa-linkedin-in"></i></a>
+                        <a href="https://wa.me/919876543210" aria-label="WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fa-brands fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Instagram"><i class="fa-brands fa-instagram"></i></a>
+                        <a href="#" aria-label="YouTube"><i class="fa-brands fa-youtube"></i></a>
+                    </div>
+                </div>
+
+                <form class="contact-form reveal" id="contactForm" novalidate>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="name">Full Name *</label>
+                            <input type="text" id="name" name="name" placeholder="Your name" required>
+                            <small class="error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="phone">Phone *</label>
+                            <input type="tel" id="phone" name="phone" placeholder="+91 XXXXX XXXXX" required>
+                            <small class="error"></small>
+                        </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" placeholder="you@example.com" required>
+                            <small class="error"></small>
+                        </div>
+                        <div class="form-group">
+                            <label for="service">Service Required</label>
+                            <select id="service" name="service">
+                                <option>Structural Design</option>
+                                <option>Project Management</option>
+                                <option>Bridges &amp; Highways</option>
+                                <option>Structural Audit &amp; Retrofitting</option>
+                                <option>Estimation &amp; BOQ</option>
+                                <option>Other</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="form-group">
+                        <label for="message">Project Details *</label>
+                        <textarea id="message" name="message" rows="5" placeholder="Tell me about your project: location, size, timeline..." required></textarea>
+                        <small class="error"></small>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-block">Send Message <i class="fa-solid fa-paper-plane"></i></button>
+                    <p class="form-status" id="formStatus" role="status"></p>
+                </form>
+            </div>
+
+            <div class="map reveal">
+                <iframe title="Office location map" src="https://maps.google.com/maps?q=Shivajinagar%2C%20Pune&z=14&output=embed" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+            </div>
+        </div>
+    </section>
+
+    <!-- ===== Footer ===== -->
+    <footer class="footer">
+        <div class="container footer-grid">
+            <div>
+                <a href="#home" class="logo logo-light">
+                    <span class="logo-mark">SD</span>
+                    <span class="logo-text">Sanket Dighe<small>Civil &amp; Structural Engineer</small></span>
+                </a>
+                <p>Safe, economical and sustainable structures &mdash; designed with precision and delivered with integrity since 2003.</p>
+            </div>
+            <div>
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Services</h4>
+                <ul>
+                    <li><a href="#services">Structural Design</a></li>
+                    <li><a href="#services">Project Management</a></li>
+                    <li><a href="#services">Structural Audit</a></li>
+                    <li><a href="#services">Bridges &amp; Highways</a></li>
+                </ul>
+            </div>
+            <div>
+                <h4>Contact</h4>
+                <ul class="footer-contact">
+                    <li><i class="fa-solid fa-location-dot"></i> Shivajinagar, Pune 411005</li>
+                    <li><i class="fa-solid fa-phone"></i> +91 98765 43210</li>
+                    <li><i class="fa-solid fa-envelope"></i> sanket.dighe@example.com</li>
+                </ul>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; <span id="year"></span> Sanket Dighe. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <a href="#home" class="back-to-top" id="backToTop" aria-label="Back to top"><i class="fa-solid fa-arrow-up"></i></a>
+
+    <!-- Project lightbox -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <button class="lightbox-close" id="lightboxClose" aria-label="Close"><i class="fa-solid fa-xmark"></i></button>
+        <img id="lightboxImg" src="" alt="">
+        <p id="lightboxCaption"></p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
